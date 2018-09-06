@@ -1,0 +1,20 @@
+body{
+    background: radial-gradient(to bottom, #0033cc 0%, #00ffff 75%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+
+    text-align: center
+}
+
+nav{
+   
+    padding: 10px 0px 10px 0px
+}
+
+h2{
+    
+    text-align: center
+}
