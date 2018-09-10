@@ -1,20 +1,42 @@
 body{
-    background: radial-gradient(to bottom, #0033cc 0%, #00ffff 75%);
+    color: white;
+    background: radial-gradient( #0033cc 20%, #00ffff 75%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+  
 }
 
 h1{
-
-    text-align: center
+    padding: 10px 0px 10px 0px;
+    background-color: #22CEE6;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    text-shadow: 3px 2px black;
 }
 
 nav{
-   
-    padding: 10px 0px 10px 0px
+    background-color: #22CEE6;
+    padding: 10px 0px 10px 0px;
+    font-size: 25px;
+    font-family: 'Chicle', cursive;
+    text-decoration: none;
+    
 }
 
 h2{
+    background-color: #22CEE6;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 160%;
+    text-shadow: 3px 2px black;
+}
+
+section {
+    padding: 0px 10px 10px 10px;
+    background-color: #1B85EA;
+    font-family: 'Chicle', cursive;
+    font-size: 1.4em;
     
-    text-align: center
 }
