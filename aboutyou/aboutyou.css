@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
   
-}
+} 
 
 h1{
     padding: 10px 0px 10px 0px;
@@ -21,7 +21,10 @@ nav{
     font-size: 25px;
     font-family: 'Chicle', cursive;
     text-decoration: none;
-    
+    background-image: url("th.jpg");
+    text-align: center;
+    background-repeat: space;
+    background-size: 16% 100%;
 }
 
 h2{
@@ -39,4 +42,18 @@ section {
     font-family: 'Chicle', cursive;
     font-size: 1.4em;
     
+}
+a:link, a:visited {
+    background-color: DarkSlateBlue ;
+    border: 2px solid black;
+    padding: 1px 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+a:hover{
+    background-color: white
+}
+ul{
+    list-style-type: none;
 }
