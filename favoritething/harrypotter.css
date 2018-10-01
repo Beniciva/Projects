@@ -1,0 +1,39 @@
+body{
+    background-image: url(background.png);
+}
+.hp{
+    background-color: #44318D;
+    color: white;
+    
+}
+.hw{
+    background-color: #44318D;
+    color: white;
+}
+img {
+    display:inline-block;
+    width:45%
+}
+.rw{
+    background-color: #44318D;
+    color: white;
+}
+
+.vm{
+    background-color: #44318D;
+    color: white;
+}
+
+.pd{
+    background-color: #44318D;
+    color: white;
+}
+
+.hg{
+    background-color: #44318D;
+    color: white;
+}
+td{
+    width: 500px;
+    padding: 0px 15px 0px 15px
+}
