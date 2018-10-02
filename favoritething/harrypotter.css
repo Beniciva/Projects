@@ -12,7 +12,6 @@ body{
 }
 img {
     display:inline-block;
-    width:45%
 }
 .rw{
     background-color: #44318D;
@@ -36,4 +35,33 @@ img {
 td{
     width: 500px;
     padding: 0px 15px 0px 15px
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #44318D;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+a.active {
+    background-color:#222222;
+}
+li a:hover {
+    background-color: #111111;
+}
+ul, li {
+    padding-right:17%;
+    padding-left:17%;
 }
