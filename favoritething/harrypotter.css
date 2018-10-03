@@ -1,34 +1,35 @@
 body{
     background-image: url(background.png);
+    background-size: cover;
 }
-.hp{
+.hp, .hat {
     background-color: #44318D;
     color: white;
     
 }
-.hw{
+.hw, .sort{
     background-color: #44318D;
     color: white;
 }
 img {
     display:inline-block;
 }
-.rw{
+.rw, .claw{
     background-color: #44318D;
     color: white;
 }
 
-.vm{
+.vm, .huff{
     background-color: #44318D;
     color: white;
 }
 
-.pd{
+.pd, .gry{ 
     background-color: #44318D;
     color: white;
 }
 
-.hg{
+.hg, .sly{
     background-color: #44318D;
     color: white;
 }
@@ -56,7 +57,7 @@ li a {
     text-decoration: none;
 }
 a.active {
-    background-color:#222222;
+    background-color: rgba(68, 42, 143, 0.6);
 }
 li a:hover {
     background-color: #111111;
