@@ -5,11 +5,14 @@ body{
 .hp, .hat {
     background-color: #44318D;
     color: white;
-    
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.1em;
 }
 .hw, .sort{
     background-color: #44318D;
     color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.1em;
 }
 img {
     display:inline-block;
@@ -17,21 +20,29 @@ img {
 .rw, .claw{
     background-color: #44318D;
     color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.1em;
 }
 
 .vm, .huff{
     background-color: #44318D;
     color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.1em;
 }
 
 .pd, .gry{ 
     background-color: #44318D;
     color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.1em;
 }
 
 .hg, .sly{
     background-color: #44318D;
     color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.1em;
 }
 td{
     width: 500px;
@@ -43,8 +54,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #44318D;
-}
-
+} 
 li {
     float: left;
 }
@@ -65,4 +75,12 @@ li a:hover {
 ul, li {
     padding-right:17%;
     padding-left:17%;
+}
+#parafont:hover{
+    text-shadow: 2px 2px 2px black;
+    font-size:1.3em;
+} 
+#parafont{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.1em;
 }
