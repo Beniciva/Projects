@@ -17,6 +17,9 @@ body{
 img {
     display:inline-block;
 }
+img:hover{
+    box-shadow: 10px 10px 8px #A4B3B6 ;
+}
 .rw, .claw{
     background-color: #44318D;
     color: white;
@@ -67,10 +70,10 @@ li a {
     text-decoration: none;
 }
 a.active {
-    background-color: rgba(68, 42, 143, 0.6);
+    background-color: #D83F87;
 }
 li a:hover {
-    background-color: #111111;
+    background-color: #D83F87;
 }
 ul, li {
     padding-right:17%;
@@ -83,4 +86,25 @@ ul, li {
 #parafont{
     font-family: 'Dancing Script', cursive;
     font-size: 1.1em;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    border: solid 2px #A4B3B6;
+}
+p{
+    border: solid 2px #2A1B3D;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+footer{
+    width: 75%;
+    color: white;
+    font-size: 0.7em;
+    padding: 15px
 }
