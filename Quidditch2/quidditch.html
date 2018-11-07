@@ -44,7 +44,7 @@
 
         <!-- Create a carousel, but this time instead of images, three articles containing text or images are included as the carousel slides. You may format the text anyway you wish, but must use some type of Bootstrap Typography for 2+ items.-->
 
-        <section id="intro-carousel" class='container carousel slide container-fluid'  data-ride='carousel'>                                  
+        <section id="intro-carousel" class='container carousel slide container-fluid'  >                                  
             
             <ul class="carousel-indicators">
                 <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
@@ -85,13 +85,13 @@
                 <a  class='nav-link active' data-toggle="tab" href="#q-overview">OVERVIEW</a>
             </li>
                 <li class="nav-item">
-                    <a  class='nav-link' data-toggle="tab" href="#q-roles">ROLES</a>
+                    <a  class='nav-link' data-toggle="collapse" href="#q-roles">ROLES</a>
                 </li>
                 <li class="nav-item">
-                    <a  class='nav-link' data-toggle="tab" href="#q-balls">BALLS</a>
+                    <a  class='nav-link' data-toggle="collapse" href="#q-balls">BALLS</a>
                 </li>
                 <li class="nav-item">
-                    <a class='nav-link' data-toggle="tab" href="#q-scoring">SCORING</a>
+                    <a class='nav-link' data-toggle="collapse" href="#q-scoring">SCORING</a>
                 </li>
             </ul>
             <!-- TAB CONTENT-->
@@ -103,13 +103,13 @@
                 </article>
                 <article  id='q-roles' class='container tab-pane fade'>
                     <ul >
-                        <li class="container tab-pane active"><button class='btn btn-primary'>Chasers</button></li>
+                        <li class="container tab-pane active" ><button type="button" class='btn btn-primary' data-toggle="collapse" data-target="#desc-chasers">Chasers</button></li>
                         <p id='desc-chasers'>The Chasers pass the Quaffle trying to throw it through one of the three hoops.</p>
-                        <li ><button class='btn btn-primary' >Keeper</button></li>
+                        <li ><button type="button" class='btn btn-primary' data-toggle="collapse" data-target="#desc-keeper">Keeper</button></li>
                         <p id='desc-keeper'>The Keeper is responsible for keeping the Quaffle from going through the hoops, similar to a Goalie in soccer.</p>
-                        <li ><button class='btn btn-primary ' >Beaters</button></li>
+                        <li ><button type="button" class='btn btn-primary ' data-toggle="collapse" data-target="#desc-beaters">Beaters</button></li>
                         <p id='desc-beaters' >The Beaters are equipped with large clubs, used to smack the Bludgers around, attempting to disrupt the Chasers from getting a goal.</p>
-                        <li ><button class='btn btn-primary ' >Seeker</button></li>
+                        <li ><button type="button" class='btn btn-primary ' data-toggle="collapse" data-target="#desc-seeker">Seeker</button></li>
                         <p id='desc-seeker' >The Seeker tries to catch the Golden Snitch, and in doing so, ends the game.</p>
                     </ul>
                 </article>
@@ -195,7 +195,7 @@
                 The Teams
                 </button>
                 <div class="dropdown-menu">
-                    <h5 >National Teams</h5>
+                    <h5 class="">National Teams</h5>
                         <a class="dropdown-item" href="#Ireland" >Ireland</a>
                         <a class="dropdown-item" href="#Bularia" >Bulgaria</a>
                         <a class="dropdown-item" href="#Brazil" >Brazil</a>
