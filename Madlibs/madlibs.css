@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+label{
+    margin: auto;
+    text-align: right;
+    width: 15em;
+    float: left;
+
+}
+fieldset{
+    margin: auto;
+    width: 600px;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#output{
+    text-align: center;
+    position: relative;
+    size: 3em;
+}
+/* color superlative adj bodyPt bodyPt2 noun animal adj1 adj2 adj3{
+
+} */
+.color{
+    text-decoration: underline;
+}

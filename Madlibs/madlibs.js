@@ -1,13 +1,3 @@
-var color
-var superlative
-var adj
-var bodyPt
-var bodyPt2
-var noun
-var animal
-var adj1
-var adj2
-var adj3
 
 $(document).ready(function(){
 
@@ -18,6 +8,17 @@ $(document).ready(function(){
     })
     
  })
+
+var color;  
+var superlative;
+var adj;
+var bodyPt;
+var bodyPt2;
+var noun;
+var animal;
+var adj1;
+var adj2;
+var adj3;   
 
 function getInfo() {
     color = $("#color").val();
@@ -34,7 +35,8 @@ function getInfo() {
 
 function showInfo() {
     getInfo();
-    var madlib = "The " + color + "Dragon is the " + superlative + "Dragon of all. It has " + adj + bodyPt + ", and a " + bodyPt2 + "shaped like a " + noun + ". It loves to eat " + animal +", although it will feast on nearly anything. It is " + adj1 + "and " + adj2 + ". You must be " + adj3 + " around it, or you may end up as it's meal!";
-    
+
+    var madlib = "The " + color + " Dragon is the " + superlative + " Dragon of all. It has " + adj + bodyPt + ", and a " + bodyPt2 + " shaped like a " + noun + ". It loves to eat " + animal +", although it will feast on nearly anything. It is " + adj1 + " and " + adj2 + ". You must be " + adj3 + " around it, or you may end up as it's meal!";
+
     $("#output").text(madlib).show();
  }
