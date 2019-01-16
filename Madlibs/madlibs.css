@@ -2,15 +2,15 @@ h1{
     text-align: center;
 }
 label{
-    margin: auto;
+    display: block;
     text-align: right;
-    width: 15em;
-    float: left;
-
+    position: relative;
+    right: 35%;
+    padding: 5px 0px 5px 0px
 }
 fieldset{
-    margin: auto;
     width: 600px;
+    margin: auto;
 }
 button{
     display: block;
@@ -19,12 +19,10 @@ button{
 }
 #output{
     text-align: center;
-    position: relative;
-    size: 3em;
+    font-size: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
-/* color superlative adj bodyPt bodyPt2 noun animal adj1 adj2 adj3{
-
-} */
-.color{
-    text-decoration: underline;
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ0P9TEJZlPTvK6qzR6BuC1hf-DhiX8pv8TDMVJRpEa07yX-RQ")
 }
