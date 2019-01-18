@@ -19,7 +19,7 @@ var animal;
 var adj1;
 var adj2;
 var adj3;   
-var name:
+var name;
 
 function getInfo() {
     color = $("#color").val();
@@ -38,7 +38,7 @@ function getInfo() {
 function showInfo() {
     getInfo();
 
-    var madlib = "Meet " + name + "The " + color + " Dragon is the " + superlative + " Dragon of all. It has " + adj + bodyPt + ", and a " + bodyPt2 + " shaped like a " + noun + ". It loves to eat " + animal +", although it will feast on nearly anything. It is " + adj1 + " and " + adj2 + ". You must be " + adj3 + " around it, or you may end up as it's meal!";
+    var madlib = "Meet " + name + ".This " + color + " Dragon is the " + superlative + " Dragon of all. It has " + adj + bodyPt + ", and a " + bodyPt2 + " shaped like a " + noun + ". It loves to eat " + animal +", although it will feast on nearly anything. It is " + adj1 + " and " + adj2 + ". You must be " + adj3 + " around it, or you may end up as it's meal!";
 
-    $("#output").text(madlib).show();
+    $("#output").text(madlib).animate({"font-size":"35px", "opacity":"1"}, 3000)
  }
