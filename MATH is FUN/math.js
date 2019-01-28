@@ -4,6 +4,17 @@ $(document).ready(function(){
         q1();
     })
 
+    $("#q2").click(function(){
+        q2();
+    })
+
+    $("#q3").click(function(){
+        q3();
+    })
+
+    $("#q4").click(function(){
+        q4();
+    })
 })
 
 var q1 = function(){
@@ -28,9 +39,42 @@ var q2 = function(){
 
     var total;
     var gratuity;
+    var gratuityR;
+    var subtotal;
 
     var input = $("#number2").val();
     var input = $("#number3").val();
 
-    var gratuity = 
+    gratuityR = gratuity/10;
+    total = subtotal + gratuityR;
+
+    $("#output1").text("Your gratuity is " + gratuityR + "Your total is " + total)
+}
+
+var q3 = function(){
+
+    var kilograms;
+    var meters; 
+    var bmi;
+    var sqrt;
+
+    var weight = $("#number4").val();
+    var height = $("#number5").val();
+
+    kilograms = weight/.45359237;
+    meters = height/.0254;
+    sqrt = Math.sqrt(meters);
+    bmi = kilograms/sqrt;
+
+    $("#output2").text("Your BMI is " + bmi + ".")
+}
+
+var q4 = function(){
+
+
+
+
+
+
+
 }
