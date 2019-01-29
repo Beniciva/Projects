@@ -42,13 +42,16 @@ var q2 = function(){
     var gratuityR;
     var subtotal;
 
-    var input = $("#number2").val();
-    var input = $("#number3").val();
+    var subtotal = $("#number2").val();
+    var gratuity = $("#number3").val();
+
+    subtotal = parseInt(subtotal);
+    gratuity = parseInt(gratuity);
 
     gratuityR = gratuity/10;
     total = subtotal + gratuityR;
 
-    $("#output1").text("Your gratuity is " + gratuityR + "Your total is " + total)
+    $("#output1").text("Your gratuity is $" + gratuityR + " Your total is $" + total)
 }
 
 var q3 = function(){
@@ -56,25 +59,27 @@ var q3 = function(){
     var kilograms;
     var meters; 
     var bmi;
-    var sqrt;
+    var pow;
 
     var weight = $("#number4").val();
     var height = $("#number5").val();
 
-    kilograms = weight/.45359237;
-    meters = height/.0254;
-    sqrt = Math.sqrt(meters);
-    bmi = kilograms/sqrt;
+    kilograms = weight * .45359237;
+    meters = height * .0254;
+    pow = Math.pow(meters, 2);
+    bmi = kilograms / pow;
 
     $("#output2").text("Your BMI is " + bmi + ".")
 }
 
 var q4 = function(){
 
+    var input = $("number6").val()
 
+    var minutes = input*60;
+    var minutesR = Math.round(minutes%60);
+    var hrs = (minutes - minutesR)/60;
 
-
-
-
+    $("#output3").text("The time is " + minutesR + " hours and " + minutesR + " minutes.")
 
 }
