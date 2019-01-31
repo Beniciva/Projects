@@ -76,10 +76,9 @@ var q4 = function(){
 
     var input = $("number6").val()
 
-    var minutes = input*60;
-    var minutesR = Math.round(minutes%60);
-    var hrs = (minutes - minutesR)/60;
+    var hrs = Math.floor(input/60)%60;
+    var minutes = input % 60;
 
-    $("#output3").text("The time is " + minutesR + " hours and " + minutesR + " minutes.")
+    $("#output3").text("The time is " + hrs + " hours and " + minutes + " minutes")
 
 }
