@@ -1,7 +1,7 @@
-var Up = 1
-var Down = 2
-var Left = 3
-var Right = 4
+var U = 1
+var D = 2
+var L = 3
+var R = 4
 
 
 
@@ -9,15 +9,15 @@ $(document).ready(function(){
 
     $("td").click(function(){
         askSide()
-        if (askSide = 1){
-            $("").css("border-top: 5px solid black");
+        if (response = "U"){
+            $(this).css("border-top: 50px solid black");
         }
 
     })
 
 
     var askSide = function(){
-        prompt("Please pick Up, Down, Left, Right (capital first letter)")
-        return;
+         var response = prompt("Please pick: U, D, L, R (Has to be Upper Case)")
+        return response;
     }
 })
