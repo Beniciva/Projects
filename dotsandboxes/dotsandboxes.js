@@ -1,11 +1,13 @@
-var U = 1
-var D = 2
-var L = 3
-var R = 4
 
 
 
 $(document).ready(function(){
+
+    var U = 1
+    var D = 2
+    var L = 3
+    var R = 4
+
 
     $("td").click(function(){
         askSide()
