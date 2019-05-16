@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8"/>
+        <title>Clicker Game</title>
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>
+        <style type="text/css">
+            body {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+    <script type="text/javascript">
+        var config={
+            type: Phaser.AUTO,
+            pixelArt: true,
+            scale: {
+                mode: Phaser.Scale.FIT,
+                autoCenter: Phaser.Scale.CENTER_BOTH,
+                width: 800,
+                height: 600
+            },
+            scene: {
+                preload: init,
+                create: rendering,
+                update: update
+            },
+            audio: {
+                disableWebAudio:true
+            }
+        };
+        var game=new Phaser.Game(config);
+        var score=0;
+        var scoreText;
+        function init(){
+            this.load.image('background', "assets/background.png")
+            this.load.image('chicken', 'assets/chicken.png')
+            this.load.image('diamond', 'assets/diamond.jpg')
+            this.load.image('dpickaxe', 'assets/dpickaxe.png')
+            this.load.image('dragon', 'assets/dragon.png')
+            this.load.image('enderman', 'assets/enderman.png')
+            this.load.image('gpickaxe', 'assets/gpickaxe.png')
+            this.load.image('ipickaxe', 'assets/ipickaxe.png')
+            this.load.image('rmpickaxe', 'assets/rmpickaxe.png')
+            this.load.image('skeleton', 'assets/skeleton.png')
+            this.load.image('spickaxe', 'assets/spickaxe.png')
+            this.load.image('wither', 'assets/wither.png')
+            this.load.image('wpickaxe', 'assets/wpickaxe.png')
+            this.load.image('zombie', 'assets/zombie.png')
+        }
+
+        function rendering(){
+            this.add.image(400, 300, "background");
+        }
